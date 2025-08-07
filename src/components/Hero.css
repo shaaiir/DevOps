@@ -1,0 +1,48 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 3rem;
+  background: linear-gradient(135deg, #fff 40%, #fce4ec);
+}
+
+.hero-left {
+  max-width: 50%;
+}
+
+.badge {
+  display: inline-block;
+  background: #f1f1f1;
+  padding: 0.4rem 0.8rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin: 0.5rem 0;
+}
+
+.hero p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.cta {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 25px;
+  background-color: #5c5cff;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.hero-right img {
+  width: 400px;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}

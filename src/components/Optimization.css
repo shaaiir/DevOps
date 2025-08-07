@@ -1,0 +1,34 @@
+.optimization {
+    padding: 4rem 2rem;
+    background: white;
+  }
+  
+  .optimization-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .optimization .text {
+    flex: 1;
+  }
+  
+  .optimization .text h2 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+  }
+  
+  .optimization .text p {
+    font-size: 1.1rem;
+    color: #4d4d4d;
+  }
+  
+  .optimization .image img {
+    width: 100%;
+    max-width: 500px;
+  }
+  
