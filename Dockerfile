@@ -1,11 +1,11 @@
-FROM node/alpine18
+FROM node:alpine-18
+
+WORKDIR /app
 
 COPY . /app
 
-RUN cd /app
-
 RUN npm install
 
-EXPOSE 8000:3000
+EXPOSE 3000
 
-CMD [ "node start" ]
+CMD [ "npm", "start" ]
